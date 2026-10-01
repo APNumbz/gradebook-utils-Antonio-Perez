@@ -4,7 +4,6 @@ Basic tests for gradebook functions.
 """
 
 from gradebook.gradebook import average, curve, median
-from gradebook.gradebook import average, curve, letter_grade
 def test_average_basic():
     assert average([100, 80, 90]) == 90.0
 def test_average_empty():
